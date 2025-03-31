@@ -1,0 +1,1 @@
+# alfred-sequantial-number
