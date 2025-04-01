@@ -3,7 +3,7 @@ An Alfred workflow to generate sequential numbers.
 
 ![screenshot](https://github.com/user-attachments/assets/55178bc7-74e7-4a1d-9738-7d091e1cd241)
 
-# Usage
+## Usage
 
 - `%b`: binary
 - `%o`: octal
@@ -13,7 +13,7 @@ An Alfred workflow to generate sequential numbers.
 - `%a, #a`: alphabetic in lower case: a, b, c, ...
 - `%A, #A`: alphabetic in upper case: A, B, C, ...
 
-## `seq`
+### `seq`
 ```
 seq <length or range>
 
@@ -25,7 +25,7 @@ seq 3-10
 Generate sequential numbers with specified length or range.
 Same as `seq fmt %d`.
 
-## `seq bin`
+### `seq bin`
 ```
 seq bin <length or range>
 
@@ -37,7 +37,7 @@ seq 3-10
 Generate sequential numbers in binary with a specified length or range.
 Same as `seq fmt %b` and `seq fmt #`.
 
-## `seq oct`
+### `seq oct`
 ```
 seq oct <length or range>
 
@@ -49,7 +49,7 @@ seq oct 3-8
 Generate sequential numbers in octal with a specified length or range.
 Same as `seq fmt %o`.
 
-## `seq hex`
+### `seq hex`
 ```
 seq hex <length or range>
 
@@ -61,7 +61,7 @@ seq hex 3-16
 Generate sequential numbers in hexadecimal in lower cases with a specified length or range.
 Same as `seq fmt %x`.
 
-## `seq Hex`
+### `seq Hex`
 ```
 seq Hex <length or range>
 
@@ -73,7 +73,7 @@ seq Hex 3-8
 Generate sequential numbers in hexadecimal in upper cases with a specified length or range.
 Same as `seq fmt %X`.
 
-## `seq alf`
+### `seq alf`
 ```
 seq alf <length or range>
 
@@ -85,7 +85,7 @@ seq alf 3-27
 Generate sequential numbers alphabetically in lower cases with a specified length or range.
 Same as `seq fmt %a` and `seq fmt #a`.
 
-## `seq Alf`
+### `seq Alf`
 ```
 seq Alf <length or range>
 
@@ -97,7 +97,7 @@ seq Alf 3-27
 Generate sequential numbers alphabetically in upper cases with a specified length or range.
 Same as `seq fmt %a` and `seq fmt #a`.
 
-## `seq fmt`
+### `seq fmt`
 ```
 seq fmt <format> <length or range> [<length or range> ...]
 
