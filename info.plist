@@ -871,7 +871,7 @@ sys.stdout.write("\r\n".join(list(loader(sys.argv[1], sys.argv[2:]))))</string>
 				<key>argumenttype</key>
 				<integer>0</integer>
 				<key>keyword</key>
-				<string>seq format</string>
+				<string>seq fmt</string>
 				<key>subtext</key>
 				<string></string>
 				<key>text</key>
