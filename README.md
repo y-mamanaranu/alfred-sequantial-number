@@ -1,7 +1,8 @@
 # Alfred Sequential Number
 An Alfred workflow to generate sequential numbers.
 
-![screenshot](https://github.com/user-attachments/assets/55178bc7-74e7-4a1d-9738-7d091e1cd241)
+<img width="764" alt="screenshot" src="https://github.com/user-attachments/assets/f7865355-b661-4c4a-8024-df26e789ab8b" />
+
 
 ## Usage
 
